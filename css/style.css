@@ -1,0 +1,57 @@
+/* --nav-- */
+.bg-sea-blue {
+    background-color: #5192B2;
+}
+
+  /* --nav end-- */
+
+/* hero */
+.hero__heading {
+    line-height: 1.5;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero__image {
+    width: 550px;
+}
+
+@media screen and (max-width:576px){
+    .hero__heading {
+        font-size: 40px;
+    }
+    .hero__image {
+        width: 450px;
+    }
+
+    /* main */
+    .main__intro--heading {
+        font-size: 40px;
+        
+    }
+}
+.hero__text {
+    line-height: 2;
+}
+
+/* main  - main__intro */
+
+.main__intro {
+    background: linear-gradient(in lch, rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url(/asset/images/section\ background.webp);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main__intro--heading {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main__intro--subheading {
+    align-content: center;
+}
+
+.main__intro--text2 {
+    line-height: 3;
+}
