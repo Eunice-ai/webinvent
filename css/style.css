@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 /* --nav-- */
 .bg-sea-blue {
     background-color: #5192B2;
@@ -12,8 +15,15 @@
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .hero__image {
     width: 550px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__image {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width:576px){
@@ -21,7 +31,7 @@
         font-size: 40px;
     }
     .hero__image {
-        width: 450px;
+        width: 400px;
     }
 
     /* main */
@@ -35,6 +45,9 @@
 }
 
 /* main  - main__intro */
+.row {
+    padding-inline: 0;
+}
 
 .main__intro {
     background: linear-gradient(in lch, rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url(/asset/images/section\ background.webp);
