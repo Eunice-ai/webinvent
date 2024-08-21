@@ -28,7 +28,7 @@
 
 @media screen and (max-width:576px){
     .hero__heading {
-        font-size: 40px;
+        font-size: 35px;
     }
     .hero__image {
         width: 400px;
@@ -36,7 +36,7 @@
 
     /* main */
     .main__intro--heading {
-        font-size: 40px;
+        font-size: 35px;
         
     }
 }
