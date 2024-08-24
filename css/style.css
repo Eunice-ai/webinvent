@@ -6,9 +6,18 @@
     background-color: #5192B2;
 }
 
+.btn-gradient {
+    background: rgb(13,110,253);
+    background: linear-gradient(45deg, rgba(121, 186, 252, 1) 0%, rgba(121, 186, 252,1) 3%, rgba(126,251,243,1) 100%);
+}
+
   /* --nav end-- */
 
 /* hero */
+.scaler-bg {
+    background-image: url(/asset/images/europa.svg);
+}
+
 .hero__heading {
     line-height: 1.5;
     font-size: 55px;
@@ -67,4 +76,43 @@
 
 .main__intro--text2 {
     line-height: 3;
+}
+
+/* counter section */
+
+.counter-section {
+    /* background-color: #53b7f2; */
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.counter-box {
+    background-color: #72c6f5;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .counter-container {
+        flex-direction: column;
+    }
+}
+
+.counter {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.counter-text {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.2rem;
 }
