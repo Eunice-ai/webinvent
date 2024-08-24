@@ -47,3 +47,7 @@ counters.forEach(counter => {
 
     window.addEventListener('scroll', scrollHandler);
 })
+
+const currentYear = new Date().getFullYear();
+
+document.getElementById('currentYear').textContent = currentYear;

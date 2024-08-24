@@ -99,7 +99,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .counter-container {
         flex-direction: column;
     }
@@ -115,4 +115,28 @@
     margin-top: 10px;
     color: #fff;
     font-size: 1.2rem;
+}
+
+/* footer */
+.bg-opacity-85 {
+    background-color: rgb(28, 28, 28);
+}
+ul.socials {
+    display: flex;
+}
+
+ul.socials li:nth-child(2) {
+    margin-inline: 20px;
+}
+
+.quick-link a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+li {
+    list-style-type: none;
 }
