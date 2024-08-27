@@ -51,3 +51,34 @@ counters.forEach(counter => {
 const currentYear = new Date().getFullYear();
 
 document.getElementById('currentYear').textContent = currentYear;
+
+
+// testimonials
+
+$(".testimonial_slider_area").owlCarousel({
+    autoplay: true,
+    slideSpeed: 1000,
+    items: 3,
+    loop: true,
+    nav: true,
+    navText: [
+      '<i class="fa fa-arrow-left"></i>',
+      '<i class="fa fa-arrow-right"></i>',
+    ],
+    margin: 30,
+    dots: false,
+    responsive: {
+      320: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      767: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
