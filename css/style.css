@@ -253,7 +253,7 @@
 .carousel-slider {
     background: #79bafc;
     /* background: linear-gradient(-100deg, white 50%, #79bafc 50%); */
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .img-text {
