@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 /* --nav-- */
 .bg-sea-blue {
@@ -82,14 +83,13 @@
 /* counter section */
 
 .counter-section {
-    /* background-color: #53b7f2; */
-    /* background-color: #fff; */
     padding: 50px 0;
     text-align: center;
 }
 
 .counter-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }

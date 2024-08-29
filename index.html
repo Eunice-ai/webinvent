@@ -8,6 +8,11 @@
     href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
     rel="stylesheet"
     />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  
+    <!-- remicom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <!-- font-awesome -->
     <link
@@ -29,7 +34,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/css/testimonial.css" />
+    <link rel="stylesheet" href="css/testimonial.css" />
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -103,7 +108,7 @@
       </nav>
       <section class="container hero mt-5 pt-md-5">
         <div class="row py-5 pt-md-0 scaler-bg">
-          <div class="col col-md-6">
+          <div class="col col-lg-6">
             <h1 class="hero__heading">
               Transform Your Business with <br />Our Tech Solutions
             </h1>
@@ -122,7 +127,7 @@
             >
             <!-- </div> -->
           </div>
-          <div class="col col-md-6 ps-md-5 text-center text-md-end">
+          <div class="col col-lg-6 ps-md-5 text-center text-lg-end">
             <img
               class="hero__image pt-md-5"
               src="asset/images/HeroLaptop.webp"
@@ -217,213 +222,91 @@
       </section>
      <!-- Services teaser ends -->
 
-     <section class="carousel-slider py-5">
-      <div class="container">
-        <div class="cs-title text-center">
-          <h3>Testimonials</h3>
-          <p>What our clients are saying</p>
-        </div>
-        <div class="row pt-4">
-          <div class="col-md-12">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row justify-content-center">
-                    <div class="col-md-4 col-sm-12">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img1.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>Clinton Umeh</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img2.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>Salome Clifford</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img3.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>April Dunk</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
+      <section class="testimonial-wrapper">
+        <div class="container flex-container">
+          <div class="card__container swiper">
+            <div class="card__content">
+              <div class="swiper-wrapper">
+                <article class="card__article swiper-slide">
+                  <div class="card__image">
+                    <img src="asset/images/clients/img1.png" alt="image" class="card__img">
+                    <div class="card__shadow"></div>
                   </div>
-                </div>
+                  <div class="card__data">
+                    <h3 class="card__name">John D</h3>
+                    <p class="card__description">
+                      Working with WebInvent on our website redesign was an absolute pleasure. Their attention to detail and understanding of our vision made the entire process seamless. The final product exceeded our expectations, and our customers love the new look. Highly recommended!
+                    </p>
+                  </div>
+                </article>
 
-                <div class="carousel-item">
-                  <div class="row justify-content-center">
-                    <div class="col-md-4 col-sm-12">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img4.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>Wison Green</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img5.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>Annabelle Su</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="single-box">
-                        <div class="img-area">
-                          <img src="/asset/images/clients/img6.jpg" alt="">
-                        </div>
-                        <div class="img-text">
-                          <h2>Jang Wang</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestias quae error eligendi incidunt suscipit vel.</p>
-                        </div>
-                      </div>
-                    </div>
+                <article class="card__article swiper-slide">
+                  <div class="card__image">
+                    <img src="asset/images/clients/img2.png" alt="image" class="card__img">
+                    <div class="card__shadow"></div>
                   </div>
-                </div>
+                  <div class="card__data">
+                    <h3 class="card__name">Sarah L</h3>
+                    <p class="card__description">
+                      I couldn’t be happier with the website WebInvent developed for my business. They took the time to understand my brand and translated it perfectly into the design. The functionality is top-notch, and I’ve already seen an increase in traffic. Thank you for your hard work!
+                    </p>
+                  </div>
+                </article>
+
+                <article class="card__article swiper-slide">
+                  <div class="card__image">
+                    <img src="asset/images/clients/img6.png" alt="image" class="card__img">
+                    <div class="card__shadow"></div>
+                  </div>
+                  <div class="card__data">
+                    <h3 class="card__name">Michael S</h3>
+                    <p class="card__description">
+                      From the initial consultation to the final launch, WebInvent was professional, responsive, and incredibly skilled. They delivered a website that not only looks amazing but performs flawlessly. I’m thrilled with the results and look forward to working with them again in the future.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="card__article swiper-slide">
+                  <div class="card__image">
+                    <img src="asset/images/clients/img5.png" alt="image" class="card__img">
+                    <div class="card__shadow"></div>
+                  </div>
+                  <div class="card__data">
+                    <h3 class="card__name">Emily R.</h3>
+                    <p class="card__description">
+                      The website WebInvent created for us is nothing short of spectacular. They were able to bring our ideas to life with a design that is both visually stunning and easy to navigate. Their expertise in web development is evident in every detail, and we’re extremely satisfied with the outcome.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="card__article swiper-slide">
+                  <div class="card__image">
+                    <img src="asset/images/clients/img4.png" alt="image" class="card__img">
+                    <div class="card__shadow"></div>
+                  </div>
+                  <div class="card__data">
+                    <h3 class="card__name">David M</h3>
+                    <p class="card__description">
+                      I’ve worked with several web designers in the past, but WebInvent stands out as the best. Their creativity, technical skills, and dedication to the project were impressive. The website they delivered has greatly improved our online presence, and we couldn’t be more pleased with the results.
+                    </p>
+                  </div>
+                </article>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-     </section>
 
-
-      <!-- testimonies starts -->
-      <!-- <section id="testimonial_area">
-        <h3 class="text-center fw-bold testimonial_area-title">Testimonies</h3>
-        <p class="text-center mb-5 pb-3" style="color: #333;">What our clients are saying.</p>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="testimonial_slider_area text-center owl-carousel">
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 1 1.png" alt="student" />
-                  </div>
-                  <h5>John Doe, Class of 2018</h5>
-                  <span>Banking Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 2 1.png" alt="student" />
-                  </div>
-                  <h5>Jane smith, Class of 2020</h5>
-                  <span>Senior Marketing Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                      <a href=""><i class="fa-brands fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands fa-facebook"></i></a>
-                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 1 1.png" alt="student" />
-                  </div>
-                  <h5>John Doe, Class of 2018</h5>
-                  <span>Banking Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                      <a href=""><i class="fa-brands fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands fa-facebook"></i></a>
-                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 2 1.png" alt="student" />
-                  </div>
-                  <h5>Jane smith, Class of 2020</h5>
-                  <span>Senior Marketing Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                      <a href=""><i class="fa-brands fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands fa-facebook"></i></a>
-                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 1 1.png" alt="student" />
-                  </div>
-                  <h5>John Doe, Class of 2018</h5>
-                  <span>Banking Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                      <a href=""><i class="fa-brands fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands fa-facebook"></i></a>
-                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-                <div class="box-area">
-                  <div class="img-area">
-                    <img src="images/alumni 2 1.png" alt="student" />
-                  </div>
-                  <h5>Jane smith, Class of 2020</h5>
-                  <span>Senior Marketing Manager</span>
-                  <p class="content">
-                      "Attending RSUBS was a transformative experience. The hands-on learning approach and access to industry leaders prepared me exceptionally well for my career. The networking opportunities were invaluable, and the friendships I made have lasted far beyond graduation. The skills and knowledge I gained have been directly applicable to my role at XYZ Corporation, allowing me to excel and make a meaningful impact."     
-                  </p>
-                  <h6 class="socials">
-                      <a href=""><i class="fa-brands fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands fa-facebook"></i></a>
-                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </h6>
-                </div>
-              </div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
             </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section> -->
-      <!-- testimonies ends -->
+      </section>
 
       <section class="counter-section py-5">
         <h3 class="text-center fw-bold">- Some Cool Facts -</h3>
@@ -530,6 +413,7 @@
       </div>
     </footer>
 
+    <script src="script/swiper-bundle.min.js"></script>
     <script src="script/main.js"></script>
     <script
       data-cfasync="false"
@@ -545,47 +429,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- Include jQuery (if not already included) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-      document.querySelectorAll(".dropdown-menu a").forEach(function (e) {
-        let nextEl = e.nextElementSibling;
-        if (nextEl && nextEl.classList.contains("sub-menu")) {
-          e.addEventListener("click", function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-          });
-        }
-      });
-
-    // $(document).ready(function(){
-    //   $(".testimonial_slider_area").owlCarousel({
-    //     autoplay: true,
-    //     slideSpeed: 1000,
-    //     items: 3,
-    //     loop: true,
-    //     nav: true,
-    //     navText: [
-    //       '<i class="fa fa-arrow-left"></i>',
-    //       '<i class="fa fa-arrow-right"></i>',
-    //     ],
-    //     margin: 30,
-    //     dots: false,
-    //     responsive: {
-    //       320: {
-    //         items: 1,
-    //       },
-    //       600: {
-    //         items: 1,
-    //       },
-    //       767: {
-    //         items: 2,
-    //       },
-    //       1000: {
-    //         items: 3,
-    //       },
-    //     },
-    //   });
-    // });
-
-    </script>
+   
   </body>
 </html>

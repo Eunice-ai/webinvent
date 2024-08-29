@@ -1,109 +1,145 @@
-/* testimonial */
-
-#testimonial_area {
-    background-color: #F8F8FF;
-    padding: 5% 0;
+a {
+    text-decoration: none;
+    color: #fff;
 }
-.box-area {
-    padding: 30px;
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card__container {
+    padding-block: 5rem;
+}
+
+.card__content {
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card__article {
+    /* width: 300px; */
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card__image {
     position: relative;
+    background-color: palegoldenrod;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+}
+
+.card__image img {
     display: block;
-    background: transparent;
-    color: #000;
-    border: 1px solid #3b5998;
-    margin: 40px 0;
+    max-width: 100%;
+    height: 150px;
 }
 
-.box-area h5 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #3b5998;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
- .box-area span {
-    color: #262626;
-    display: block;
-    font-size: 13px;
-    margin: 0 0 10px;
-    font-weight: 400;
-}
-
-.box-area .content{
-    color: #333;
-    font-size: 14px;
-}
-
-.box-area .img-area{
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    top: -40px;
-    left: 0;
-    bottom: 0;
-    margin: 0 auto;
-    right: 0;
-    border-radius: 50%;
-    z-index: 1;
-    border: 5px solid #fff;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
-} 
-.box-area .img-area img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.socials {
-    margin-top: 30px;
-}
-
-.socials i {
-    margin: 0 10px;
-    color: #3b5998;
-    font-size: 18px;
-}
-
-#testimonial_area .owl-nav {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-}
-#testimonial_area .owl-prev,
-#testimonial_area .owl-next {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #3b5998;
-    border-radius: 50%;
+.card__data {
+    background-color: #333;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
     text-align: center;
-    background: transparent;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+
+.card__img {
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.card__shadow {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 50%;
     position: absolute;
+    top: 3.75rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    filter: blur(45px);
 }
 
-#testimonial_area .owl-prev {
-    left: -60px;
-    top: -30px;
+.card__name {
+    color: rgb(121, 186, 252);
+    margin-bottom: .75rem;
 }
-#testimonial_area .owl-next {
-    right: -60px;
-    top: -30px;
+.card__description {
+    font-weight: 500;
+    margin-bottom: 1.75rem;
 }
 
-@media only screen and (max-width: 991px) {
-    .owl-nav {
-        display: none;
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   width: initial;
+   height: initial;
+   font-size: 3rem;
+   color: rgb(121, 186, 252);
+   /* display: none; */
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-pagination-bullet {
+   background-color: rgb(121, 186, 252);
+   opacity: 1; 
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(165, 206, 248);
+}
+
+/*===== Breakpoints =====*/
+/* For small devices */
+
+@media screen and (max-width: 320px) {
+    .card__data {
+        padding: 1rem;
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .owl-nav {
-        display: none;
+/* For medium devices */
+
+@media screen and (min-width: 768px) {
+    .card__content {
+        margin-inline: 3rem;
     }
-    .box-area {
-        text-align: center;
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: block;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+    .card__container {
+        max-width: 1120px;
+    }
+    .swiper-button-next {
+        right: -1rem;
+    }
+    .swiper-button-prev {
+        left: -1rem;
     }
 }

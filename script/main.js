@@ -1,5 +1,15 @@
-// navbar scroll bg-color change
+// navbar dropdown and submenu
+// document.querySelectorAll(".dropdown-menu a").forEach(function (e) {
+//   let nextEl = e.nextElementSibling;
+//   if (nextEl && nextEl.classList.contains("sub-menu")) {
+//     e.addEventListener("click", function (e) {
+//       e.preventDefault();
+//       e.stopPropagation();
+//     });
+//   }
+// });
 
+// navbar scroll bg-color change
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
 
@@ -14,11 +24,11 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.classList.add('bg-white');
             navbar.classList.remove('navbar-dark');
             navbar.classList.remove('bg-black');
-            // navbar.classList.remove('scrolled');
         }
     });
 });
 
+// cool stuff section
 const counters = document.querySelectorAll('.counter');
 
 counters.forEach(counter => {
@@ -47,38 +57,35 @@ counters.forEach(counter => {
 
     window.addEventListener('scroll', scrollHandler);
 })
-
 const currentYear = new Date().getFullYear();
 
 document.getElementById('currentYear').textContent = currentYear;
 
 
-// testimonials
+// Testimonial section
+let swiperCards = new Swiper('.card__content', {
+  loop: true,
+  spaceBetween: 32,
+  grabCursor: true,
 
-$(".testimonial_slider_area").owlCarousel({
-    autoplay: true,
-    slideSpeed: 1000,
-    items: 3,
-    loop: true,
-    nav: true,
-    navText: [
-      '<i class="fa fa-arrow-left"></i>',
-      '<i class="fa fa-arrow-right"></i>',
-    ],
-    margin: 30,
-    dots: false,
-    responsive: {
-      320: {
-        items: 1,
-      },
-      600: {
-        items: 1,
-      },
-      767: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints:{
+   
+    768:{
+      slidesPerView: 2,
     },
-  });
+    968:{
+      slidesPerView: 3,
+    },
+  },
+});
