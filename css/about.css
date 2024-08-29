@@ -1,0 +1,8 @@
+/* .row {
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+} */
+.hero-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .5), rgb(210, 222, 235), rgba(121, 186, 252, 1)), url(/asset/images/contact-dot.jpg); 
+    padding-block: 80px;
+}
