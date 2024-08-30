@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <!-- font-awesome -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
+
     <link
       rel="stylesheet"
       href="asset/bootstrap-5.3.3-dist/css/bootstrap.min.css"
@@ -13,7 +23,7 @@
 </head>
 <body>
     <header>
-        <nav
+      <nav
         class="navbar navbar-expand-lg navbar-light fixed-top pb-4 mb-5"
         id="navbar"
       >
@@ -96,54 +106,248 @@
     </header>
 
     <main>
-      <div class="company-overview container mt-md-4 mb-5">
-        <div class="row">
-            <!-- History Section -->
-            <div class="col-md-6">
-                <h2>Our Journey</h2>
-                <p><strong>Founding Story:</strong> WebInvent was founded in 2004 by a group of passionate software developers. With a vision to blend creativity and technology, we began our journey in a small office, focusing on building strong, lasting relationships with our clients.</p>
-    
-                <p><strong>Growth & Milestones:</strong> Over the years, WebInvent expanded its offerings from simple website development to complex web and mobile applications. By 2010, we had grown our team to 10 talented professionals, and in 2015, we were recognized with the 'Innovative Tech Solutions' award.</p>
-    
-                <p><strong>Achievements:</strong> WebInvent is certified in several leading technologies and has formed strategic partnerships with key industry players, enabling us to deliver cutting-edge solutions to our clients.</p>
+      <section class="history">
+        <div class="company-overview container mt-md-5 mb-5">
+          <div class="row">
+              <!-- History Section -->
+              <div class="col-md-6">
+                <!-- ps-sm-5 ms-sm-4 -->
+                  <h2 class="">Our Journey</h2>
+                  <div class="d-flex">
+                    <p class="p-fas pe-md-4"><i class="d-none d-sm-block fas fa-rocket fs-2 align-content-center"></i></p>
+                    <p><strong>Founding Story:</strong> WebInvent was founded in 2004 by a group of passionate software developers. With a vision to blend creativity and technology, we began our journey in a small office, focusing on building strong, lasting relationships with our clients.</p>
+                  </div>
+                  <div class="d-flex">
+                    <p class="p-fas pe-md-4"><i class="d-none d-sm-block fas fa-chart-line fs-2 align-content-center"></i></p>
+                    <p><strong>Growth & Milestones:</strong> Over the years, WebInvent expanded its offerings from simple website development to complex web and mobile applications. By 2010, we had grown our team to 10 talented professionals, and in 2015, we were recognized with the 'Innovative Tech Solutions' award.</p>
+                  </div>
+                  <div class="d-flex">
+                    <p class="p-fas pe-md-4"><i class="d-none d-sm-block fas fa-trophy fs-2 align-content-center"></i></p>
+                    <p><strong>Achievements:</strong> WebInvent is certified in several leading technologies and has formed strategic partnerships with key industry players, enabling us to deliver cutting-edge solutions to our clients.</p>
+                  </div>
+              </div>
+              <!-- Image Section -->
+              <div class="col-md-6 mt-2 mt-md-0 d-flex timeline-wrapper">
+                  <!-- <img src="asset/images/timeline-infographic.avif" alt="WebInvent Timeline" class="img-fluid"> -->
+                  <div class="timeline-container">
+                    <div class="timeline px-4 px-lg-0">
+                        <div class="milestone">
+                            <div class="year">2004</div>
+                            <div class="description">Company Founded</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2010</div>
+                            <div class="description">Expanded Services to Include Mobile App Development</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2015</div>
+                            <div class="description">Recognized with 'Innovative Tech Solutions' Award</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2018</div>
+                            <div class="description">Reached 100 Completed Projects</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="year">2024</div>
+                            <div class="description">Celebrating 20 Years of Innovation</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
             </div>
-    
-            <!-- Image Section -->
-            <div class="col-md-6 mt-2 mt-md-0 d-flex timeline-wrapper">
-                <!-- <img src="asset/images/timeline-infographic.avif" alt="WebInvent Timeline" class="img-fluid"> -->
+      </section>
+      <!-- mission section -->
+      <section class="mission py-5 px-2">
+        <div class="container">
+          <div class="mission-statement text-md-center">
+            <h2>Our Mission</h2>
+            <p class="mission-text">
+                At WebInvent, our mission is to:
+            </p>
+            <ul class="mission-points">
+                <li><i class="fas fa-check-circle"></i> Deliver innovative, high-quality software solutions tailored to meet the unique needs of each client.</li>
+                <li><i class="fas fa-check-circle"></i> Empower individuals and businesses through comprehensive programming education.</li>
+                <li><i class="fas fa-check-circle"></i> Foster a culture of continuous improvement, where learning and innovation drive our approach to every project.</li>
+            </ul>
+          </div>        
+        </div>
+      </section>
 
-                <div class="timeline-container">
-                  <div class="timeline">
-                      <div class="milestone">
-                          <div class="year">2004</div>
-                          <div class="description">Company Founded</div>
-                      </div>
-                      <div class="milestone">
-                          <div class="year">2010</div>
-                          <div class="description">Expanded Services to Include Mobile App Development</div>
-                      </div>
-                      <div class="milestone">
-                          <div class="year">2015</div>
-                          <div class="description">Recognized with 'Innovative Tech Solutions' Award</div>
-                      </div>
-                      <div class="milestone">
-                          <div class="year">2018</div>
-                          <div class="description">Reached 100 Completed Projects</div>
-                      </div>
-                      <div class="milestone">
-                          <div class="year">2024</div>
-                          <div class="description">Celebrating 20 Years of Innovation</div>
+      <section class="team-members">
+        <div class="container my-5">
+          <h2 class="text-center mb-5">Meet Our Team</h2>
+          <div class="row pb-md-5">
+              <div class="col-md-4">
+                  <div class="card shadow-sm team-card">
+                      <img src="asset/images/clients/img1.png" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Ransom Kwelle">
+                      <div class="card-body text-center">
+                          <h3 class="card-title">Ransom Kwelle</h3>
+                          <p class="card-subtitle text-muted mb-2">CEO & Founder</p>
+                          <p class="card-text">Ransom is the visionary behind WebInvent, with over 25 years of experience in the tech industry...</p>
                       </div>
                   </div>
               </div>
+              <div class="col-md-4 py-4 py-md-0">
+                  <div class="card shadow-sm team-card">
+                      <img src="asset/images/clients/img6.png" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Andrew Kwelle">
+                      <div class="card-body text-center">
+                          <h3 class="card-title">Andrew Kwelle</h3>
+                          <p class="card-subtitle text-muted mb-2">Lead Developer</p>
+                          <p class="card-text">Andrew specializes in web and mobile applications, leading several high-profile projects...</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow-sm team-card">
+                    <img src="asset/images/clients/img1.png" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Lucky Odionz">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Lucky Odionz</h3>
+                        <p class="card-subtitle text-muted mb-2">Lead Developer</p>
+                        <p class="card-text">Lucky specializes in web and mobile applications, leading several high-profile projects...</p>
+                    </div>
+                </div>
             </div>
+          </div>
+      </div>
+      
+      </section>
+
+      <section class="values">
+        <div class="container">
+          <h2 class="text-center mb-5">Our Values & Vision</h2>
+          <div class="row text-center">
+              <div class="col-md-4">
+                  <div class="value-item">
+                      <i class="fas fa-check-circle fa-2x text-primary mb-3"></i>
+                      <h3>Quality</h3>
+                      <p>We are committed to delivering the highest quality in all our projects, ensuring client satisfaction every time.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="value-item">
+                      <i class="fas fa-lightbulb fa-2x text-primary mb-3"></i>
+                      <h3>Innovation</h3>
+                      <p>Innovation drives our approach, keeping us at the forefront of technological advancements.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="value-item">
+                      <i class="fas fa-users fa-2x text-primary mb-3"></i>
+                      <h3>Customer Focus</h3>
+                      <p>We prioritize our clients' needs, ensuring that every solution is tailored to their specific requirements.</p>
+                  </div>
+              </div>
+          </div>
+      
+          <div class="future-vision mt-5">
+              <h3>Our Future Vision</h3>
+              <div class="timeline mt-4">
+                  <div class="timeline-item mb-4">
+                      <div class="timeline-content p-3 bg-light border rounded">
+                          <h4>2025</h4>
+                          <p>Launch new AI and machine learning services.</p>
+                      </div>
+                  </div>
+                  <div class="timeline-item mb-4">
+                      <div class="timeline-content p-3 bg-light border rounded">
+                          <h4>2027</h4>
+                          <p>Open a new training center for programming education.</p>
+                      </div>
+                  </div>
+                  <!-- Add more future goals as needed -->
+              </div>
+          </div>
+      </div>   
+      </div>
+      </section>
+      <section class="more" style="background-color: #2ecc71;">
+        <div class="container text-center my-5">
+          <div class="cta-section text-center py-5" ">
+            <a href="services.html" class="btn btn-primary btn-lg mx-2">Learn More About Our Work</a>
+            <a href="contact.html" class="btn btn-success btn-lg mx-2">Get in Touch</a>
         </div>
-    </div>
-    
+      </section>
     </main>
 
-    <footer></footer>
-    <script src="script/main.js"></script>
+    <footer>
+      <section class="footer-info text-white bg-opacity-85 bg-op">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-7 col-sm-6 col-xs-12">
+                  <h4 class="pb-2">About Us</h4>
+                  <div>Innovation and Excellence...</div>
+                  <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi, itaque.
+                  </div>
+                </div>
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                  <h4 class="pb-2 pt-4 pt-sm-0">Quick Link</h4>
+                  <ul class="quick-link">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pt-4 pt-sm-0">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <h4 class="pb-2 pt-4 pt-md-0">Services</h4>
+                  <ul>
+                    <li>Mobile App Development</li>
+                    <li>Web Development & Hosting</li>
+                    <li>Programming and IT Training</li>
+                    <li>Cloud Computing</li>
+                    <li>Business Software Solutions</li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <h4 class="pb-2 pt-4 pt-md-0">Our Products</h4>
+                  <ul>
+                    <li>Lorem ipsum dolor sit?</li>
+                    <li>Lorem ipsum dolor sit?</li>
+                    <li>Lorem ipsum dolor sit?</li>
+                    <li>Lorem ipsum dolor sit?</li>
+                    <li>Lorem ipsum dolor sit?</li>
+                  </ul>
+                  <ul class="socials py-4">
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-facebook fs-3 text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-instagram fs-3 text-white"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-brands fa-twitter fs-3 text-white"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <p class="bg-black text-white-50 py-4 text-center m-0">
+          &COPY; WEBINVENT LIMITED. 2010 - <span id="currentYear"></span> All
+          right reserved
+        </p>
+      </div>
+    </footer>
     <script src="asset/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/main.js"></script>
 </body>
 </html>

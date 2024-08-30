@@ -1,13 +1,3 @@
-// navbar dropdown and submenu
-// document.querySelectorAll(".dropdown-menu a").forEach(function (e) {
-//   let nextEl = e.nextElementSibling;
-//   if (nextEl && nextEl.classList.contains("sub-menu")) {
-//     e.addEventListener("click", function (e) {
-//       e.preventDefault();
-//       e.stopPropagation();
-//     });
-//   }
-// });
 
 // navbar scroll bg-color change
 document.addEventListener('DOMContentLoaded', function() {
@@ -89,3 +79,40 @@ let swiperCards = new Swiper('.card__content', {
     },
   },
 });
+
+// mission section
+
+// Function to check if the element is in the viewport
+
+// function isInViewport(element) {
+//   const rect = element.getBoundingClientRect();
+//   console.log('Element rect:', rect);
+//   return (
+//       rect.top >= 0 &&
+//       rect.left >= 0 &&
+//       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+//       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+//   );
+// }
+
+// // Function to add the 'visible' class when the element is in the viewport
+// function onScroll() {
+//   const missionSection = document.querySelector('.mission-statement');
+//   if (missionSection) {
+//       console.log('Checking visibility'); // Debugging line
+//       if (isInViewport(missionSection)) {
+//           missionSection.classList.add('visible');
+//       } else {
+//           missionSection.classList.remove('visible'); // Optional: remove class if not in view
+//       }
+//   } else {
+//       console.log('Element not found'); // Debugging line
+//   }
+// }
+
+// // Event listener for scroll
+// window.addEventListener('scroll', onScroll);
+
+// // Initial check in case the element is already in the viewport
+// onScroll();
+

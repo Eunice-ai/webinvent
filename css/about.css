@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .row {
     margin-inline: 0 !important;
     padding-inline: 0 !important;
@@ -26,6 +31,16 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-fas {
+    align-content: center;
+}
+
+.p-fas i {
+    color: #3498db;
+    font-size: 1.5rem; 
+    margin-right: 10px;
 }
 
 /* Timeline */
@@ -73,4 +88,95 @@
 .description {
     font-size: 1rem;
     color: #555;
+}
+
+/* mission section */
+.mission {
+    background-color: #f3f4f7;
+}
+.mission-statement {
+     
+    color: #333;
+    /* text-align: center; */
+    /* padding: 50px 20px; */
+    /* margin: 40px 0; */
+    border-radius: 8px;
+    /* opacity: 0; */
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-in;
+}
+
+.mission-statement h2 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+}
+
+.mission-statement .mission-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.mission-points {
+    list-style: none;
+    padding: 0;
+}
+
+.mission-points li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.mission-points i {
+    color: #3498db;
+    margin-right: 10px;
+}
+
+/* Fade-in effect */
+/* .visible {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+/* team section */
+
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
+
+/* values and vision */
+.values {
+    background-color: #e9f7fe; /* Soft Blue */
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+
+.value-item i {
+    color: #3498db;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
 }
