@@ -59,14 +59,18 @@
 .row {
     padding-inline: 0;
 }
-
 .main__intro {
-    background: linear-gradient(in lch, rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url(/asset/images/section\ background.webp);
+    background-color: #333;
+}
+.main__intro {
+    background-image: linear-gradient(in lch, rgba(0,0,0,0.75), rgba(0,0,0,0.7)), url(/asset/images/section\ background.webp);
     background-image: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+} 
+
+
 
 .main__intro--heading {
     font-weight: 700;
