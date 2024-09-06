@@ -10,7 +10,7 @@ a {
     height: 100vh;
 }
 .card__container {
-    padding-block: 5rem;
+    padding-block: 2.5rem;
 }
 
 .card__content {
@@ -21,13 +21,14 @@ a {
 
 .card__article {
     /* width: 300px; */
+    
     border-radius: 1.25rem;
     overflow: hidden;
 }
 
 .card__image {
     position: relative;
-    background-color: rgb(121, 186, 252);
+    background-color: #72c6f5;
     padding-top: 1.5rem;
     margin-bottom: -.75rem;
 }
@@ -39,13 +40,13 @@ a {
 }
 
 .card__data {
-    background-color: #333;
+    /* background-color: #333; */
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     text-align: center;
     position: relative;
     z-index: 10;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .card__img {
@@ -58,7 +59,7 @@ a {
 .card__shadow {
     width: 200px;
     height: 200px;
-    background-color: rgb(0, 128, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
     top: 3.75rem;
@@ -73,7 +74,6 @@ a {
     margin-bottom: .75rem;
 }
 .card__description {
-    font-weight: 500;
     margin-bottom: 1.75rem;
 }
 

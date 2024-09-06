@@ -8,8 +8,15 @@
     padding-inline: 0 !important;
 }
 .hero-bg {
-    background: linear-gradient(180deg, rgba(255, 255, 255, .5), rgb(210, 222, 235), rgb(121, 186, 252)), url(/asset/images/contact-dot.jpg); 
+    background: linear-gradient(180deg, rgba(255, 255, 255, .5), rgb(210, 222, 235, .7), rgba(59, 88, 150, .7) 75%, rgb(59, 88, 150)), url(/asset/images/contactus2.png); 
     padding-block: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (min-width: 768px) {
+    .about-hero h1{
+        font-size: 3.5rem;
+    }
 }
 
 .company-overview {
@@ -45,8 +52,9 @@
 
 /* Timeline */
 .timeline-wrapper {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #f0f7ff, #e1e9f3);
+    
+    /* font-family: Arial, sans-serif; */
+    /* background: linear-gradient(to right, #f0f7ff, #e1e9f3); */
     /* padding: 20px; */
 }
 
@@ -107,7 +115,7 @@
 }
 
 .mission-statement h2 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* font-weight: bold; */
     margin-bottom: 20px;
 }
@@ -141,12 +149,13 @@
 /* team section */
 
 .team-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.6s ease, box-shadow 0.6s ease, border 0.6s ease;
 }
 
 .team-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #01a2ff;
 }
 
 .card-img-top {
@@ -162,7 +171,7 @@
 }
 
 .value-item i {
-    color: #3498db;
+    color: #3b5998;
 }
 
 .timeline-item {
@@ -177,6 +186,6 @@
     top: 10px;
     width: 20px;
     height: 20px;
-    background-color: #3498db;
+    background-color: #3b5998;
     border-radius: 50%;
 }

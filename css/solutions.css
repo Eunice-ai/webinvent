@@ -1,7 +1,7 @@
 
 .card {
     transition: .6s;
-    border-color: #9ac7f4;
+    /* border-color: #9ac7f4; */
     overflow: hidden;
 }
 
@@ -21,7 +21,8 @@
 .card:hover {
     /* background-color: transparent; */
     transform: translateY(-8px);
-    border-color: #01a2ff;
+    border-color: rgb(0, 162, 255);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card:hover:after {
     width: 225%;
@@ -31,3 +32,13 @@
 /* .card:hover img {
     border-bottom: 1px solid #9ac7f4;
 } */
+.card-body {
+    background-color: #1c2335;
+}
+.card-body h2 {
+    font-size: 20px;
+    color: white;
+}
+.card-body p {
+    color: rgba(255, 255, 255, 0.6);
+}

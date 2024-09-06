@@ -1,0 +1,15 @@
+.btn-gradient {
+    background: #3b5998;
+    background: linear-gradient(45deg, #3b5897 20%, rgba(121, 186, 252,1) 3%, rgba(126,251,243,1) 100%);
+}
+Software/Web Design & Development, Network & IP Solutions, ICT Audit and Compliancy Services
+
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(0, 162, 255);
+}

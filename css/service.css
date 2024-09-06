@@ -4,9 +4,21 @@
     box-sizing: border-box;
     /* font-family: "Poppins", sans-serif;; */
 }
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 3.5rem;
+    }
+}
+.hero-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .5), rgb(210, 222, 235, .7), rgba(59, 88, 150, .7) 75%, rgb(59, 88, 150)), url(/asset/images/services1.jpg); 
+    padding-block: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .service-section {
-    background-color: #191a2b;
+    /* background-color: #191a2b; */
 }
 
 .container-style {
@@ -23,9 +35,9 @@
 .service h2{
     color: #fff;
     /* font-size: 2.5rem; */
-    -webkit-text-stroke-width: 2px;
+    /* -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: transparent;
-    letter-spacing: 4px;
+    letter-spacing: 4px; */
     /* background-color: rgb(4, 52, 83); */
     /* background: linear-gradient(8deg, rgba(8,52,83,1) 0%, rgba(0,230,173,1) 41%, rgba(41,17,45,1) 100%); */
     /* -webkit-background-clip: text; */
@@ -33,7 +45,7 @@
     position: relative;
 }
 
-.service h2:after {
+/* .service h2:after {
     content: "";
     position: absolute;
     top: 100%;
@@ -42,7 +54,7 @@
     width: 80%;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.05);
-}
+} */
 
 .cards {
     display: grid;
@@ -102,12 +114,12 @@
     color: rgba(255, 255, 255, 0.6);
 }
 .card:hover {
-    background-color: transparent;
+    /* background-color: transparent; */
     transform: translateY(-8px);
     border-color: #01a2ff;
 }
 .card:hover i{
-    color: #01a2ff;
+    color: #3b5897;
 }
 
 @media screen and (max-width: 1200px) {
