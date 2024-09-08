@@ -33,12 +33,14 @@
     border-bottom: 1px solid #9ac7f4;
 } */
 .card-body {
-    background-color: #1c2335;
+    background-color: rgb(239, 239, 239);
+    /* background-color: transparent; */
+    /* background-color: #3b5998; */
 }
 .card-body h2 {
     font-size: 20px;
-    color: white;
+    /* color: white; */
 }
 .card-body p {
-    color: rgba(255, 255, 255, 0.6);
+    /* color: rgba(255, 255, 255, 0.6); */
 }

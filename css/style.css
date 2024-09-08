@@ -131,7 +131,7 @@ p, a{
 }
 
 .counter-box {
-    background-color: #72c6f5;
+    background-color: #3b5998;
     padding: 20px 40px;
     border-radius: 10px;
 }
@@ -194,7 +194,7 @@ p, a{
 }
 
 .teasers .item h3{
-    color: rgb(121, 186, 252);
+    color: #3b5998;
     /* -webkit-text-stroke-width: .15px; */
     /* -webkit-text-stroke-color: rgb(255, 255, 255); */
     font-size: 1.5rem;
